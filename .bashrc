@@ -6,7 +6,6 @@ export EDITOR='vim'
 
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-# https://docs.brew.sh/Homebrew-on-Linux
 # https://docs.brew.sh
 
 # Set colors for listing items
