@@ -20,4 +20,6 @@ if [ "$TERM" != "dumb" ]; then
     alias l='ls -CF'
 fi
 
+# To erase MOTD: touch ~/.hushlogin
+
 # source ~/.bashrc
