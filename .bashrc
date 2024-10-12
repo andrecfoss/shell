@@ -21,6 +21,6 @@ if [ "$TERM" != "dumb" ]; then
 fi
 
 # To supress MOTD: touch ~/.hushlogin, otherwise:
-# touch /etc/update-motd.d/01-custom
+# sudo touch /etc/update-motd.d/01-custom
 
 # source ~/.bashrc
