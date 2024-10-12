@@ -5,7 +5,7 @@ export PS1="\[\033[1;32m\]\u\[\033[0;37m\] \w\$ "
 export EDITOR='vim'
 
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+# export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 
 # Set colors for listing items
 if [ "$TERM" != "dumb" ]; then
