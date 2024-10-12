@@ -20,6 +20,7 @@ if [ "$TERM" != "dumb" ]; then
     alias l='ls -CF'
 fi
 
-# To erase MOTD: touch ~/.hushlogin
+# To supress MOTD: touch ~/.hushlogin, otherwise:
+# touch /etc/update-motd.d/01-custom
 
 # source ~/.bashrc
