@@ -13,11 +13,8 @@ if [ "$TERM" != "dumb" ]; then
     [ -e "$HOME/.dircolors" ] && DIR_COLORS="$HOME/.dircolors"
     [ -e "$DIR_COLORS" ] || DIR_COLORS=""
     eval "`dircolors -b $DIR_COLORS`"
-
-    alias ls='ls --color=auto'
     alias ll='ls -l'
     alias la='ls -la'
-    alias l='ls -CF'
 fi
 
 # To supress MOTD: touch ~/.hushlogin, otherwise create and edit 01-custom:
