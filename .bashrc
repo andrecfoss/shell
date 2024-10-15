@@ -2,6 +2,7 @@
 
 export CLICOLOR=1
 export PS1="\[\033[1;32m\]\u\[\033[0;37m\] \w\$ "
+# export PS1=$'%n@%m:\e[0;36m%~\e[0m$ '
 export EDITOR='vim'
 
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
